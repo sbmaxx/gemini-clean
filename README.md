@@ -1,12 +1,13 @@
 # gemini-clean
 Find and remove reduntant gemini references
 
-**Help**:  
+## Install
 ```
+$ npm install gemini-clean
 $ gemini-clean --help
 ```
 
-**Example**:    
+## Example
 ```
 $ gemini-clean example.js
 ```
