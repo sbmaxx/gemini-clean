@@ -15,19 +15,10 @@ gemini-clean --help
 git clone https://github.com/sbmaxx/gemini-clean.git
 cd gemini-clean
 npm install
-gemini-clean example.js
+gemini-clean gemini/suites --reference=gemini/references
 ```
 
 ```
-root
-root/parent
-  plain
-  hovered
-  pressed
-root/parent/child
-  plain
-  hovered
-root/parent/child/grandChild
-  plain
-  pressed
+Unused:
+  gemini/references/state
 ```
