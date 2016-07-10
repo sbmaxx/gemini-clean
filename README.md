@@ -1,15 +1,18 @@
 # gemini-clean
-Find and remove reduntant gemini references
+Find and remove reduntant gemini references without running actual tests ;)
 
 ## Install
-```
-$ npm install gemini-clean
-$ gemini-clean --help
+```bash
+npm install gemini-clean
+gemini-clean --help
 ```
 
 ## Example
-```
-$ gemini-clean example.js
+```bash
+git clone https://github.com/sbmaxx/gemini-clean.git
+cd gemini-clean
+npm install
+gemini-clean example.js
 ```
 
 ```
