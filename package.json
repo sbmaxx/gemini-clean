@@ -1,11 +1,15 @@
 {
   "name": "gemini-clean",
-  "version": "1.0.0",
-  "description": "Find and delete reduntant gemini screenshots",
+  "version": "0.0.1",
+  "description": "Find and remove reduntant gemini references",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "sbmaxx@gmail.com",
+  "author": "sbmaxx <sbmaxx@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sbmaxx/gemini-clean.git"
+  },
   "license": "ISC"
 }
