@@ -1,11 +1,16 @@
 # gemini-clean
 Find and remove reduntant gemini references
 
-```bash
-gemini-clean example.js
+**Help**:  
+```
+$ gemini-clean --help
 ```
 
-**Example** output:  
+**Example**:    
+```
+$ gemini-clean example.js
+```
+
 ```
 root
 root/parent
