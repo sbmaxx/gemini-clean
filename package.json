@@ -1,7 +1,7 @@
 {
   "bin": "bin/gemini-clean",
   "name": "gemini-clean",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Find and remove reduntant gemini references",
   "engines": {
     "node": ">=4.3.0"
