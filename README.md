@@ -12,13 +12,32 @@ gemini-clean --help
 
 ## Example
 ```bash
-git clone https://github.com/sbmaxx/gemini-clean.git
-cd gemini-clean
-npm install
 gemini-clean gemini/suites --reference=gemini/references
 ```
 
+## Example using config
+```bash
+gemini-clean -c .gemini-clean.js
 ```
-Unused:
-  gemini/references/state
+
+```js
+// .gemini-clean.js
+module.exports = [
+    {
+        bundle: 'images/desktop',
+        suites: ['gemini/images/desktop'],
+        references: ['gemini/references/images/desktop'],
+        globals: {
+            platform: 'desktop'
+        }
+    },
+    {
+        bundle: 'video/desktop',
+        suites: ['gemini/video/desktop'],
+        references: ['gemini/references/video/desktop'],
+        globals: {
+            platform: 'desktop'
+        }
+    }
+]
 ```
