@@ -16,15 +16,11 @@ gemini-clean gemini/suites --reference=gemini/references
 ```
 
 ## Example using config
-```bash
-gemini-clean -c .gemini-clean.js
-```
 
 ```js
 // .gemini-clean.js
 module.exports = [
     {
-        bundle: 'images/desktop',
         suites: ['gemini/images/desktop'],
         references: ['gemini/references/images/desktop'],
         globals: {
@@ -32,7 +28,6 @@ module.exports = [
         }
     },
     {
-        bundle: 'video/desktop',
         suites: ['gemini/video/desktop'],
         references: ['gemini/references/video/desktop'],
         globals: {
@@ -40,4 +35,7 @@ module.exports = [
         }
     }
 ]
+```
+```bash
+gemini-clean
 ```
